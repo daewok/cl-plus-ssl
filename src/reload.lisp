@@ -45,6 +45,10 @@
                 "/sw/lib/libcrypto.dylib"        ;; Fink
                 "/usr/local/opt/openssl/lib/libcrypto.dylib" ;; Homebrew
                 "/usr/local/lib/libcrypto.dylib" ;; personalized install
+                "/usr/lib/libcrypto.44.dylib"
+                "/usr/lib/libcrypto.42.dylib"
+                "/usr/lib/libcrypto.41.dylib"
+                "/usr/lib/libcrypto.35.dylib"
                 "libcrypto.dylib"                ;; default system libcrypto, which may have insufficient crypto
                 "/usr/lib/libcrypto.dylib"))
   (:cygwin (:or "cygcrypto-1.1.dll" "cygcrypto-1.0.0.dll")))
@@ -62,6 +66,10 @@
                 "/sw/lib/libssl.dylib"        ;; Fink
                 "/usr/local/opt/openssl/lib/libssl.dylib" ;; Homebrew
                 "/usr/local/lib/libssl.dylib" ;; personalized install
+                "/usr/lib/libssl.46.dylib"
+                "/usr/lib/libssl.44.dylib"
+                "/usr/lib/libssl.43.dylib"
+                "/usr/lib/libssl.35.dylib"
                 "libssl.dylib"                ;; default system libssl, which may have insufficient crypto
                 "/usr/lib/libssl.dylib"))
   (:solaris (:or "/lib/64/libssl.so"
