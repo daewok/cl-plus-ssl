@@ -44,6 +44,7 @@
   (:darwin (:or "/opt/local/lib/libcrypto.dylib" ;; MacPorts
                 "/sw/lib/libcrypto.dylib"        ;; Fink
                 "/usr/local/opt/openssl/lib/libcrypto.dylib" ;; Homebrew
+                "/opt/homebrew/opt/openssl/lib/libcrypto.dylib" ;; Homebrew Arm64
                 "/usr/local/lib/libcrypto.dylib" ;; personalized install
                 "/usr/lib/libcrypto.44.dylib"
                 "/usr/lib/libcrypto.42.dylib"
